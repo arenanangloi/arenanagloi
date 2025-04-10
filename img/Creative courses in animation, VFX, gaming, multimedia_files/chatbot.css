@@ -1,0 +1,85 @@
+.chat-spinner{margin:0 auto;width:30px;text-align:center}
+.chat-spinner > div{width:8px;height:8px;background-color:#fff;border-radius:100%;display:inline-block;animation:sk-bouncedelay 1.2s infinite ease-in-out both}
+.chat-spinner .bounce1{animation-delay:-.32s}
+.chat-spinner .bounce2{animation-delay:-.16s}
+@-webkit-keyframes sk-bouncedelay {
+0%,80%,100%{transform:scale(0)}
+40%{transform:scale(1)}
+}
+@keyframes sk-bouncedelay {
+0%,80%,100%{transform:scale(0)}
+40%{transform:scale(1)}
+}
+.bg{width:100%;height:100%;top:0;left:0;z-index:1;filter:blur(80px);transform:scale(1.2)}
+.chat-icon{position:fixed;right:20px;bottom:20px;z-index:99999;width:150px;cursor:pointer}
+.chat{position:fixed;right:1%;bottom:2%;width:400px;height:80vh;max-height:500px;z-index:9999;overflow:hidden;box-shadow:0 5px 30px rgba(0,0,0,0.2);background:#fff;border-radius:0;display:flex;justify-content:space-between;flex-direction:column;background:#e7e7e7}
+@media(max-width:767px) {
+.chat{width:90%;max-height:400px;right:5%}
+}
+.chat-title{flex:0 1 45px;position:relative;z-index:2;background:#2e3840;min-height:74px}
+.chat-heading{font-weight:400;font-size:.95rem;margin:0;color:#fff;letter-spacing:1px;position:absolute;top:18px;left:19%;max-width:66%;text-align:left;line-height:1.34}
+.chat-close{color:#fff;text-align:center;padding:5px;position:absolute;cursor:pointer;width:30px;height:30px;right:10px;top:5px;font-size:1rem;line-height:1rem}
+.chat-minimize{color:#fff;text-align:center;padding:5px;position:absolute;cursor:pointer;width:30px;height:30px;right:40px;top:0;font-size:1.5rem;line-height:1.75rem}
+.chat-title .avatar{position:absolute;z-index:1;top:8px;left:9px;border-radius:30px;width:55px;height:55px;overflow:hidden;margin:0;padding:0;border:0 solid rgba(255,255,255,0.24)}
+.chat-title .avatar img{width:100%;height:auto}
+.messages{flex:1 1 auto;color:rgba(255,255,255,0.5);overflow:auto;position:relative;width:100%;background:transparent}
+.messages .messages-content{position:absolute;top:0;left:0;height:101%;width:100%}
+.messages .message,.chat-bot-message{clear:both;float:left;padding:6px 10px 7px;border-radius:10px 10px 10px 0;background:#48535c;margin:8px 15px;font-size:.95rem;line-height:1.4;position:relative;text-shadow:0 1px 1px rgba(0,0,0,0.2);color:#fff;max-width:70%;text-align:left}
+.messages .message .timestamp{position:absolute;bottom:-15px;font-size:9px;color:rgba(255,255,255,0.3)}
+.messages .message::before,.chat-bot-message::before{content:"";position:absolute;bottom:-6px;border-top:7px solid #48535c;left:0;border-right:9px solid transparent}
+.messages .message .avatar{position:absolute;z-index:1;bottom:-15px;left:-35px;border-radius:30px;width:30px;height:30px;overflow:hidden;margin:0;padding:0;border:2px solid rgba(255,255,255,0.24)}
+.messages .message .avatar img{width:100%;height:auto}
+.messages .message.message-personal,.user-bot-message{float:right;color:#fff;background:#6b7075;border-radius:10px 10px 0 10px;max-width:65%;margin:10px 15px;padding:6px 10px 7px;position:relative;min-width:15%;font-size:.95rem;line-height:1.4;text-align:left}
+.messages .message.message-personal::before,.user-bot-message::before{content:"";position:absolute;left:auto;right:0;border-right:none;border-left:9px solid transparent;border-top:7px solid #6b7075;bottom:-6px}
+.messages .message:last-child{margin-bottom:30px}
+.messages .message.new{transform:scale(0);transform-origin:0 0;-webkit-animation:bounce 500ms linear both;animation:bounce 500ms linear both}
+.messages .message.loading::before{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);content:"";display:block;width:3px;height:3px;border-radius:50%;background:rgba(255,255,255,0.5);z-index:2;margin-top:4px;-webkit-animation:ball .45s cubic-bezier(0,0,0.15,1) alternate infinite;animation:ball .45s cubic-bezier(0,0,0.15,1) alternate infinite;border:none;-webkit-animation-delay:.15s;animation-delay:.15s}
+.messages .message.loading span{display:block;font-size:0;width:20px;height:10px;position:relative}
+.messages .message.loading span::before{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);content:"";display:block;width:3px;height:3px;border-radius:50%;background:rgba(255,255,255,0.5);z-index:2;margin-top:4px;-webkit-animation:ball .45s cubic-bezier(0,0,0.15,1) alternate infinite;animation:ball .45s cubic-bezier(0,0,0.15,1) alternate infinite;margin-left:-7px}
+.messages .message.loading span::after{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);content:"";display:block;width:3px;height:3px;border-radius:50%;background:rgba(255,255,255,0.5);z-index:2;margin-top:4px;-webkit-animation:ball .45s cubic-bezier(0,0,0.15,1) alternate infinite;animation:ball .45s cubic-bezier(0,0,0.15,1) alternate infinite;margin-left:7px;-webkit-animation-delay:.3s;animation-delay:.3s}
+.message-box{flex:0 1 40px;width:90%;background:rgba(255,255,255,1);padding:10px;position:relative;margin:10px auto;border-radius:25px}
+.message-box .message-input{background:none;border:none;outline:none!important;resize:none;color:rgba(0,0,0,1);font-size:.95rem;height:18px;margin:0;padding-right:10px;width:90%}
+.message-box textarea:focus:-webkit-placeholder{color:transparent}
+.message-box .message-submit{position:absolute;z-index:1;top:4px;right:10px;color:#fff;border:none;background:#248a52;font-size:10px;text-transform:uppercase;line-height:1;padding:6px 10px;border-radius:10px;outline:none!important;transition:background .2s ease;background:#E32082;background:url(/frontend/images/ai_chatbot/chat-send-icon.png) no-repeat 0 0;background-size:cover;height:32px;width:32px}
+.message-box .message-submit:hover{opacity:75%}
+.mCSB_scrollTools{margin:1px -3px 1px 0;opacity:0}
+.mCSB_inside > .mCSB_container{margin-right:0;padding:0 10px}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background-color:rgba(0,0,0,0.5)!important}
+@-webkit-keyframes bounce {
+0%{transform:matrix3d(0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1)}
+4.7%{transform:matrix3d(0.45,0,0,0,0,0.45,0,0,0,0,1,0,0,0,0,1)}
+9.41%{transform:matrix3d(0.883,0,0,0,0,0.883,0,0,0,0,1,0,0,0,0,1)}
+14.11%{transform:matrix3d(1.141,0,0,0,0,1.141,0,0,0,0,1,0,0,0,0,1)}
+18.72%{transform:matrix3d(1.212,0,0,0,0,1.212,0,0,0,0,1,0,0,0,0,1)}
+24.32%{transform:matrix3d(1.151,0,0,0,0,1.151,0,0,0,0,1,0,0,0,0,1)}
+29.93%{transform:matrix3d(1.048,0,0,0,0,1.048,0,0,0,0,1,0,0,0,0,1)}
+35.54%{transform:matrix3d(0.979,0,0,0,0,0.979,0,0,0,0,1,0,0,0,0,1)}
+41.04%{transform:matrix3d(0.961,0,0,0,0,0.961,0,0,0,0,1,0,0,0,0,1)}
+52.15%{transform:matrix3d(0.991,0,0,0,0,0.991,0,0,0,0,1,0,0,0,0,1)}
+63.26%{transform:matrix3d(1.007,0,0,0,0,1.007,0,0,0,0,1,0,0,0,0,1)}
+85.49%{transform:matrix3d(0.999,0,0,0,0,0.999,0,0,0,0,1,0,0,0,0,1)}
+100%{transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}
+}
+@keyframes bounce {
+0%{transform:matrix3d(0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1)}
+4.7%{transform:matrix3d(0.45,0,0,0,0,0.45,0,0,0,0,1,0,0,0,0,1)}
+9.41%{transform:matrix3d(0.883,0,0,0,0,0.883,0,0,0,0,1,0,0,0,0,1)}
+14.11%{transform:matrix3d(1.141,0,0,0,0,1.141,0,0,0,0,1,0,0,0,0,1)}
+18.72%{transform:matrix3d(1.212,0,0,0,0,1.212,0,0,0,0,1,0,0,0,0,1)}
+24.32%{transform:matrix3d(1.151,0,0,0,0,1.151,0,0,0,0,1,0,0,0,0,1)}
+29.93%{transform:matrix3d(1.048,0,0,0,0,1.048,0,0,0,0,1,0,0,0,0,1)}
+35.54%{transform:matrix3d(0.979,0,0,0,0,0.979,0,0,0,0,1,0,0,0,0,1)}
+41.04%{transform:matrix3d(0.961,0,0,0,0,0.961,0,0,0,0,1,0,0,0,0,1)}
+52.15%{transform:matrix3d(0.991,0,0,0,0,0.991,0,0,0,0,1,0,0,0,0,1)}
+63.26%{transform:matrix3d(1.007,0,0,0,0,1.007,0,0,0,0,1,0,0,0,0,1)}
+85.49%{transform:matrix3d(0.999,0,0,0,0,0.999,0,0,0,0,1,0,0,0,0,1)}
+100%{transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}
+}
+@-webkit-keyframes ball {
+from{transform:translateY(0) scaleY(0.8)}
+to{transform:translateY(-10px)}
+}
+@keyframes ball {
+from{transform:translateY(0) scaleY(0.8)}
+to{transform:translateY(-10px)}
+}

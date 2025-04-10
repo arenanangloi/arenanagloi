@@ -1,0 +1,560 @@
+@font-face{font-family:RalewayRegular;src:url(../fonts/RalewayRegular.eot);src:url(../fonts/RalewayRegular.eot) format("embedded-opentype"),url(../fonts/RalewayRegular.woff2) format("woff2"),url(../fonts/RalewayRegular.woff) format("woff"),url(../fonts/RalewayRegular.ttf) format("truetype"),url(../fonts/RalewayRegular.svg#RalewayRegular) format("svg")}
+@font-face{font-family:RalewayBold;src:url(../fonts/RalewayBold.eot);src:url(../fonts/RalewayBold.eot) format("embedded-opentype"),url(../fonts/RalewayBold.woff2) format("woff2"),url(../fonts/RalewayBold.woff) format("woff"),url(../fonts/RalewayBold.ttf) format("truetype"),url(../fonts/RalewayBold.svg#RalewayBold) format("svg")}
+@font-face{font-family:NunitoRegular;src:url(../fonts/NunitoRegular.eot);src:url(../fonts/NunitoRegular.eot) format("embedded-opentype"),url(../fonts/NunitoRegular.woff2) format("woff2"),url(../fonts/NunitoRegular.woff) format("woff"),url(../fonts/NunitoRegular.ttf) format("truetype"),url(../fonts/NunitoRegular.svg#NunitoRegular) format("svg")}
+@font-face{font-family:NunitoLightItalic;src:url(../fonts/NunitoLightItalic.eot);src:url(../fonts/NunitoLightItalic.eot) format("embedded-opentype"),url(../fonts/NunitoLightItalic.woff2) format("woff2"),url(../fonts/NunitoLightItalic.woff) format("woff"),url(../fonts/NunitoLightItalic.ttf) format("truetype"),url(../fonts/NunitoLightItalic.svg#NunitoLightItalic) format("svg")}
+@font-face{font-family:NunitoBold;src:url(../fonts/NunitoBold.eot);src:url(../fonts/NunitoBold.eot) format("embedded-opentype"),url(../fonts/NunitoBold.woff2) format("woff2"),url(../fonts/NunitoBold.woff) format("woff"),url(../fonts/NunitoBold.ttf) format("truetype"),url(../fonts/NunitoBold.svg#NunitoBold) format("svg")}
+@font-face{font-family:RalewaySemiBold;src:url(../fonts/RalewaySemiBold.eot);src:url(../fonts/RalewaySemiBold.eot) format("embedded-opentype"),url(../fonts/RalewaySemiBold.woff2) format("woff2"),url(../fonts/RalewaySemiBold.woff) format("woff"),url(../fonts/RalewaySemiBold.ttf) format("truetype"),url(../fonts/RalewaySemiBold.svg#RalewaySemiBold) format("svg")}
+@font-face{font-family:NunitoItalic;src:url(../fonts/NunitoItalic.eot);src:url(../fonts/NunitoItalic.eot) format("embedded-opentype"),url(../fonts/NunitoItalic.woff2) format("woff2"),url(../fonts/NunitoItalic.woff) format("woff"),url(../fonts/NunitoItalic.ttf) format("truetype"),url(../fonts/NunitoItalic.svg#NunitoItalic) format("svg")}
+@font-face{font-family:NunitoSemiBold;src:url(../fonts/NunitoSemiBold.eot);src:url(../fonts/NunitoSemiBold.eot) format("embedded-opentype"),url(../fonts/NunitoSemiBold.woff2) format("woff2"),url(../fonts/NunitoSemiBold.woff) format("woff"),url(../fonts/NunitoSemiBold.ttf) format("truetype"),url(../fonts/NunitoSemiBold.svg#NunitoSemiBold) format("svg")}
+@font-face{font-family:MontserratBold;src:url(../fonts/MontserratBold.eot);src:url(../fonts/MontserratBold.eot) format("embedded-opentype"),url(../fonts/MontserratBold.woff2) format("woff2"),url(../fonts/MontserratBold.woff) format("woff"),url(../fonts/MontserratBold.ttf) format("truetype"),url(../fonts/MontserratBold.svg#MontserratBold) format("svg")}
+@font-face{font-family:NunitoLight;src:url(../fonts/NunitoLight.eot);src:url(../fonts/NunitoLight.eot) format("embedded-opentype"),url(../fonts/NunitoLight.woff2) format("woff2"),url(../fonts/NunitoLight.woff) format("woff"),url(../fonts/NunitoLight.ttf) format("truetype"),url(../fonts/NunitoLight.svg#NunitoLight) format("svg")}
+.rlwayReg{font-family:RalewayRegular}
+.rlwayBold{font-family:RalewayBold}
+.rlwaysemiBold{font-family:RalewaySemiBold}
+.nunitaReg{font-family:NunitoRegular}
+.nunitaBold{font-family:NunitoBold}
+.nunitiLightIta{font-family:NunitoLightItalic}
+.wrapper{width:90%;margin:0 auto;font-family:NunitoRegular}
+.sprite{background:url(../images/creative-minds/sprite.png) no-repeat top left}
+figure{margin-bottom:0}
+ol,ul{list-style:none}
+.para-cont{font-size:22px;color:#333;font-family:NunitoRegular;line-height:40px;text-align:left}
+.career-page .creo-box-nw{padding:24% 0 18%}
+#noDiv .help-text{text-align:center}
+.box-footer{text-align:center}
+.form-sec{background:url(../images/creative-minds/form-bg.png) no-repeat center;background-size:auto;width:100%;padding:277px 0 86px;margin:-245px 0 0;background-size:cover;position:relative;z-index:9}
+.banner-heading{font-size:76px;font-family:RalewayBold;margin:0 0 50px;text-transform:uppercase;line-height:78px;color:#333!important}
+.subhead{font-size:76px;font-family:RalewayRegular;text-align:center;margin-bottom:100px;line-height:85px;text-transform:uppercase}
+.top-banner{background-size:cover!important}
+.verify-sec{background:#ffe615;padding:100px 0;position:relative}
+.verify-sec:after{content:'';position:absolute;background:url(../images/genuine-aptech/verify-after.png) no-repeat top center;width:100%;height:192px;bottom:-192px;left:0;background-size:cover}
+.verify-sec:before{content:'';position:absolute;background:url(../images/genuine-aptech/verify-before.png) no-repeat top center;width:100%;height:192px;top:-192px;left:0;background-size:cover}
+.verify-container{display:flex;justify-content:space-between}
+.verify-container .verify-box{width:30%}
+.verify-container .verify-box figure img{width:100%}
+.benefits-sec{padding:247px 0 0;background:#e6e6e6}
+.benefits-inner{display:flex;justify-content:space-between;align-items:center}
+.benefits-sec .left-sec{width:50%;text-align:left}
+.benefits-sec .left-sec .subhead{text-align:left;margin-bottom:47px}
+.benefits-sec .right-sec{width:50%}
+.dmc-points li{position:relative;padding:0 0 0 30px;font-size:22px;margin:0 0 15px;font-family:NunitoRegular}
+.dmc-points li::before{background:url(../images/bullet-icon.png) no-repeat 0 0;width:11px;height:13px;content:'';position:absolute;left:0;top:10px;background-size:cover}
+.terms-condt{font-size:22px}
+.benefits-sec .right-sec img{width:100%}
+.terms-condt{font-family:NunitoLight;font-size:22px;font-style:italic;color:rgba(51,51,51,.8);padding-left:29px}
+.validate-sec{background:#81002c;padding:100px 0 0;position:relative;color:#fff}
+.validate-sec:before{content:'';position:absolute;background:url(../images/genuine-aptech/validate-before.png) no-repeat top center;width:100%;height:197px;top:-197px;left:0;background-size:cover}
+.validate-sec p{text-align:left}
+.validate-inner{display:flex;justify-content:space-between}
+.validate-sec .subhead{font-size:47px;text-align:left;line-height:61px;margin-bottom:40px}
+.validate-sec .left-sec{width:60%}
+.validate-sec .right-sec{width:40%}
+.validate-sec .right-sec img{width:100%}
+.genuine-aptech-page .top-banner .banner-heading{color:#fff!important;text-align:left}
+.genuine-aptech-page .top-banner p{color:#fff}
+.verify-box figcaption{font-size:22px}
+.genuine-aptech-page .set-box-nw{width:63%}
+.btm-head{font-size:22px;font-family:NunitoBold;text-align:center;margin:50px 0 0}
+.gift-course .set-box-nw{margin-left:0;text-align:left;padding:24% 0 40%}
+.banner-desc{font-family:NunitoRegular;font-size:22px}
+.gift-arena{background:url(../images/gift-course/arena-course.png) no-repeat right -50px;background-size:cover;color:#fff;padding:260px 0 300px;margin:-244px 0 0}
+.gift-arena .subhead{font-size:40px;line-height:48px;width:76%;margin:0 auto 30px}
+.gift-arena .left-sec{width:50%;text-align:left}
+.courses-list{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap}
+.courses-list .course-box{width:48%;margin-bottom:80px}
+.courses-list .course-box figure img{width:100%;transition:.5s ease all}
+.course-name{font-size:50px;font-family:RalewayRegular;line-height:40px;margin:0 0 15px;color:#333;text-transform:uppercase}
+.courses-list .course-box figure img:hover{box-shadow:0 0 10px 10px rgba(77,233,251,1);transition:.5s ease all}
+.course-box .anchor_text{float:none}
+.course-box figure{margin:0 0 30px;box-shadow:4px 2px 8px #999}
+.arena-courses-sec{padding:60px 0 200px;position:relative}
+.arena-courses-sec:before{content:'';position:absolute;background:url(../images/gift-course/course-before.png) no-repeat top center;width:100%;height:178px;top:-178px;left:0;background-size:cover}
+.arena-flow{background:#ffe615;padding:50px 0 200px;position:relative}
+.arena-flow::before{content:'';position:absolute;background:url(../images/gift-course/flow-chart-before.png) no-repeat top center;width:100%;height:185px;top:-185px;left:0;background-size:cover}
+.flow-chart{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;align-items:stretch}
+.flow-sec{width:29%;background:#fff;border-radius:5px;padding:3% 4% 7%;position:relative}
+.flow-sec figure img{width:100%}
+.flow-sec figcaption{font-size:22px;font-family:NunitoBold;margin:50px 0 0}
+.btm-cont{font-size:22px;margin:60px auto 30px;width:50%}
+.flow-sec+.flow-sec:after{content:'';position:absolute;background:url(../images/gift-course/right-arrow.png) no-repeat top center;width:40px;height:40px;top:50%;left:-14%}
+.gift-arena .cta-sec{text-align:left}
+.arena-flow .anchor_text{float:none}
+.banner-form{position:absolute;top:125px;right:0;background:#fff;padding:50px;width:600px;box-shadow:0 0 10px #666}
+.gift-course .top-banner .wrapper{position:relative}
+.form-title{font-size:30px;font-family:RalewayBold;color:#011c25;margin-bottom:20px}
+.banner-form .input-field{border:none;border-bottom:solid 1px rgba(1,28,37,.3);font-size:22px;width:100%;padding-bottom:10px;margin-bottom:25px}
+.banner-form .input-field::-webkit-input-placeholder{color:rgba(1,28,37,1)}
+.banner-form .input-field::-ms-input-placeholder{color:rgba(1,28,37,1)}
+.banner-form .input-field:-ms-input-placeholder{color:rgba(1,28,37,1)}
+.banner-form .input-field::-moz-placeholder{color:rgba(1,28,37,1)}
+.banner-form .anchor_text{float:none}
+label.error{bottom:-20px;left:0;color:red;font-size:14px;line-height:18px}
+form .anchor_text{float:none}
+.hire-arena .input-field-sec{display:inline-block}
+#uploadBtn-error{width:300px;bottom:-36px!important}
+. span.file-ext{font-size:18px;margin-left:10px;display:inline-block}
+.input-field-sec{position:relative}
+.hire-arena .banner-heading{text-align:left}
+.form-sec{background:url(../images/hire-arena/form-bg.png) no-repeat center;background-size:auto;background-size:auto;width:100%;padding:415px 0 228px;margin:-290px 0 0;background-size:cover;position:relative;z-index:9}
+.form-sec .subhead{font-size:60px;color:#043749;text-shadow:0 7px 6px rgba(4,55,73,.5);line-height:96px}
+.form-cont{text-align:center}
+.form-row-sec{margin-bottom:25px}
+.form-cont span{font-size:30px}
+.form-cont input{background:0 0;border:none;border-bottom:dashed 1px #121f1a;font-size:26px}
+.select-dropdown{font-family:Raleway,sans-serif;font-size:26px;color:#003f47;border:none;width:300px;text-align:left;background:url(../images/dropdown-arrow.png) no-repeat right center;border-bottom:1.5px dashed #004048;box-sizing:border-box;outline:0}
+.form-sec select{appearance:none;-moz-appearance:none;-webkit-appearance:none}
+.form-sec input[type=file]{appearance:none;-moz-appearance:none;-webkit-appearance:none}
+.cta-sec a{float:none;display:inline-block}
+.cta-sec{text-align:center}
+.input-field-sec{position:relative;margin-bottom:5px}
+.hire-arena .arena-flow::before{display:none}
+.hire-arena .arena-flow{margin:-225px 0 0;padding:206px 0 220px;background:#00375a}
+.hire-arena .arena-flow .subhead{color:#fff;font-family:RalewayRegular;font-weight:100;font-size:50px;line-height:50px;margin-bottom:80px}
+.hire-arena .flow-sec+.flow-sec::after{background:url(../images/hire-arena/arrow-right.png) no-repeat top center}
+.hire-arena .flow-chart{margin:0 0 50px}
+.link-text{color:#0469d1;font-size:22px}
+.browse-btn span{font-size:.9vw;color:#fff;background:#535353;padding:3% 4%;padding:11px 24px;border:2px solid #fff;text-decoration:none!important;margin-top:1%;margin-left:1%;text-transform:uppercase;letter-spacing:2px;-webkit-box-shadow:3px 3px 10px 1px rgba(0,0,0,.2);-moz-box-shadow:3px 3px 10px 1px rgba(0,0,0,.2);box-shadow:3px 3px 10px 1px rgba(0,0,0,.2);-webkit-transition:.2s;transition:.2s;z-index:10}
+.browse-btn{margin-left:17px;width:121px;position:relative}
+.browse-btn:hover span{-webkit-transition:.2s;cursor:pointer;transition:.2s;color:#000;background:#f7ca18}
+.flow-sel{font-size:30px;font-family:RalewaySemiBold;line-height:35px;width:70%;margin:0 auto;text-transform:uppercase}
+.form-cont .browse-btn span{font-size:14px}
+.hire-from-arena{position:relative;background:#e6e6e6;padding:90px 0 250px}
+.hire-from-arena:before{content:'';position:absolute;background:url(../images/hire-arena/hire-arena-before.png) no-repeat top center;width:100%;height:177px;top:-177px;left:0;background-size:cover}
+.browse-btn span{color:#fff;font-size:18px}
+.browse-btn .upload{position:absolute;opacity:0;width:100%;cursor:pointer;top:0;left:0;height:45px}
+.upload-btn-sec{display:flex;justify-content:center;align-items:center}
+.cv-details{display:block}
+.hire-arena .form-sec .subhead{width:70%;margin:0 auto 40px;line-height:71px}
+.hire-arena .flow-sec figcaption{font-family:NunitoRegular}
+.hire-arena .subhead{margin-bottom:20px}
+.flow-sec figcaption .link-text{display:block;cursor:pointer}
+.hire-arena .course-landing-info-box p{color:#333}
+.banner-cont p{color:#333!important}
+.banner-cont .banner-heading{text-align:left!important}
+.stud-speak-info{background:url(../images/student-speak/stud-speak-bg.png) no-repeat top center;padding:15% 0 17%;margin:-200px 0 0;background-size:cover}
+.stud-speak-info p{font-size:35px;font-family:NunitoBold;color:#fff;width:80%;margin:0 auto}
+.slider-nav-thumbnails{width:85%;margin:20px auto 0}
+.slider-nav-thumbnails .slick-slide,.slider-nav-thumbnails-2 .slick-slide{opacity:.3}
+.slider-nav-thumbnails .slick-slide.slick-current,.slider-nav-thumbnails-2 .slick-slide.slick-current{opacity:1}
+.stud-testi .slider-nav-thumbnails .slick-slide img{width:100%;transform:scale(.7);transition:.5s ease all}
+.stud-testi{background:url(../images/student-speak/testi-slider-bg.png) no-repeat top center;padding:14% 0;background-size:cover;margin:-225px 0 0}
+.testi-slide .testi-user{width:170px;margin:0 auto 20px;height:170px;border-radius:50%}
+.testi-slide .testi-user img{width:100%;border-radius:50%;height:100%}
+.testi-user-name{font-size:35px;font-family:NunitoBold}
+.testi-user-desn{font-size:25px;font-family:NunitoBold;color:#e64b21;width:80%;margin:0 auto}
+.testi-slide{background:#fff;padding:20px;margin:0 5% 20px}
+.testi-slide .top-sec{border-bottom:solid 1px #333;padding:0 0 20px;margin:0 0 20px}
+.testi-slide .btm-sec p{text-align:left}
+.slider-nav-thumbnails .slick-prev,.slider-nav-thumbnails .slick-prev:focus,.slider-nav-thumbnails .slick-prev:hover,.stud-slider .slick-prev,.stud-slider .slick-prev:focus,.stud-slider .slick-prev:hover{background:url(../images/slider-left.png) no-repeat 0 0;background-size:auto;width:50px;height:50px;position:absolute;bottom:0;left:-50px;z-index:9;background-size:cover}
+.slider-nav-thumbnails .slick-next,.slider-nav-thumbnails .slick-next:focus,.slider-nav-thumbnails .slick-next:hover,.stud-slider .slick-next,.stud-slider .slick-next:focus,.stud-slider .slick-next:hover{background:url(../images/slider-right.png) no-repeat 0 0;background-size:auto;width:50px;height:50px;position:absolute;bottom:0;right:-50px;z-index:9;background-size:cover}
+.stud-slider .slick-next:before,.stud-slider .slick-prev:before{display:none}
+.slider-nav-thumbnails .slick-next:before,.slider-nav-thumbnails .slick-prev:before{display:none}
+.testi-user-img{margin:0 auto;width:170px;height:170px}
+.stud-testi .slider-nav-thumbnails .slick-slide .testi-user-img img{border-radius:50%;margin-bottom:10px;cursor:pointer;height:100%}
+.stud-testi .slider-nav-thumbnails .slick-slide.slick-current .testi-user-img img{transform:scale(1);transition:.5s ease all;box-shadow:0 4px 10px #999}
+.stud-testi .slick-slide.slick-current .testi-slide{box-shadow:0 6px 12px #999}
+.read-more{color:#0469d1;cursor:pointer;position:relative}
+.read-more::before{content:'';background:url(../images/blue-arrow.png) no-repeat 0 0;position:absolute;right:-16px;top:7px;width:6px;height:12px}
+.testi-slide .btm-sec iframe{width:100%;margin-top:10px}
+.stud-blackoverlay{position:fixed;z-index:999;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.7);display:none}
+.stud-cont-sec{position:absolute;top:50%;left:50%;transform:translate(-50%,-48%);background:#e6e6e6;padding:35px 15px;width:80%;max-width:1400px;border-radius:5px}
+.stud-cont-inner{display:flex}
+.stud-cont-inner .left-sec{width:30%;display:flex;align-items:center;justify-content:center}
+.stud-cont-inner .right-sec{width:70%;border-left:solid 1px #8c8c8c;padding-left:30px}
+.left-inner .testi-user{width:90px;margin:0 auto 20px;height:90px}
+.left-inner .testi-user img{width:100%;border-radius:50%;height:100%}
+.left-inner .stud-pop-head{font-size:35px}
+.stud-cont-inner .right-sec .testimonial-content{text-align:left;max-height:400px;overflow-y:auto;font-size:22px}
+.stud-pop-head{font-size:28px;font-family:NunitoBold}
+.read-more-text{position:relative;cursor:pointer;color:#0469d1;font-size:18px;line-height:25px;display:inline-block;font-family:NunitoBold}
+.read-more-text::before{content:'';background:url(../images/blue-arrow.png) no-repeat 0 0;position:absolute;right:-16px;top:7px;width:6px;height:12px}
+.stud-speak .set-box-nw{padding:23% 0 25%}
+.testi-slide .btm-sec p{font-size:22px;font-family:NunitoRegular}
+.stud-slider .slick-track{display:flex!important}
+.stud-slider .slick-track .slick-slide{align-items:stretch;height:inherit!important;float:none}
+.stud-slider .slick-track .slick-slide .testi-slide{height:94%!important;border-radius:5px}
+.hire-from-arena .subhead{font-weight:100}
+.hire-from-arena p{font-size:22px;font-family:NunitoRegular}
+.form-message{margin:18px auto 11px}
+.form-message p{font-size:15px;line-height:24px;color:rgba(51,51,51,.5)}
+.form-message p a{color:rgba(51,51,51,.5);font-size:13px;text-decoration:underline}
+.campus-popup{position:fixed;z-index:999;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.7);display:none;border-radius:5px}
+.privacy-pop.campus-popup .campus-number{height:68vh}
+.campus-number{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:#fff;padding:50px 30px;max-width:800px;width:90%}
+.privacy-pop.campus-popup .campus-number .inner-cont{height:100%;overflow-y:scroll;text-align:left;font-family:NunitoRegular;font-size:19px;line-height:32px}
+.privacy-pop.campus-popup .campus-number .inner-cont p{font-size:19px;line-height:32px;font-family:NunitoRegular}
+.closebtn{position:absolute;text-align:center;top:-20px;right:-20px;font-size:20px;line-height:40px;width:40px;background:#000;color:#fff;border-radius:50%;height:40px}
+.closebtn:hover{background:#ffe615;cursor:pointer;transition:.5s ease all}
+.flow-sec figcaption.anim-link{cursor:pointer}
+.verify-box figcaption a{color:#2866d9;font-size:22px}
+.validate-sec .cta-sec{text-align:left}
+.validate-sec .cta-sec .anchor_text{margin-left:0}
+.hall-fame{float:right;line-height:16px;margin-left:50px}
+.hall-fame a{font-size:12px}
+.hall-fame:hover a{color:#ffe615}
+.callnow{float:right}
+.career-page .set-box-nw{text-align:left}
+.career-page .banner-heading{color:#fff!important}
+.career-page .top-banner{position:relative;background-position:center 70px!important}
+.career-page .top-banner:after{background:url(../images/career-after.png) no-repeat top center;background-size:cover;bottom:0;height:178px;content:'';position:absolute;width:100%;left:0}
+.career-cont-info{background:#e6e6e6;padding:50px 0 200px}
+.career-cont-info p{font-size:22px;font-family:NunitoRegular;line-height:30px}
+.career-btm-point a{color:#0469d1;font-size:40px;font-family:NunitoBold}
+.career-btm-sec{margin:100px 0}
+.career-btm-sec p{text-align:center;font-size:40px;font-family:NunitoBold}
+.slider-nav-thumbnails .slick-list{padding:12px 0!important}
+.enter-name{width:354px}
+#gift-a-course-form label.error{bottom:-2px}
+.genuine-aptech-page .breadcrumbs li a,.genuine-aptech-page .breadcrumbs li::before{color:#fff}
+.stud-speak .form-sec{padding:281px 0 413px}
+.stud-speak .footer-overlay{margin-top:-202px}
+.career-page .set-box-nw{padding:17% 0 21%}
+.career-page #header_from{text-align:center}
+.gift-course .flow-chart figcaption.anim-link{color:#0469d1}
+.stud-speak .slick-next,.stud-speak .slick-prev{top:55%}
+.gift-arena .subhead{text-shadow:#000 0 0 9px}
+.gift-arena .left-sec p{font-family:NunitoRegular}
+.opinion-sec .subhead{font-weight:100}
+.digi-home .mst-event-cont p{font-family:NunitoRegular}
+#file-upload-filename{font-size:16px;margin-left:10px;display:inline-block;text-align:left;display:none!important}
+.hire-arena .top-banner{background-position-y:-50px!important}
+.joblistcont span{margin-top:15px;margin-bottom:15px;display:inline-block}
+.stud-speak .top-banner{background-position-y:-35px!important}
+.slick-next:hover,.slick-prev:hover{opacity:.6!important}
+.read-more-text:hover{text-decoration:underline}
+.empty-sec{height:200px;background:#ccc}
+.form-sec.empty-form{background:url(../images/empty-form.png) no-repeat center;background-size:cover;padding:200px 0}
+.empty-form p{text-align:center}
+#subForm input::-webkit-input-placeholder{font-size:14px}
+#subForm input::-moz-placeholder{font-size:14px}
+#subForm input::-o-placeholder{font-size:14px}
+#subForm input::-ms-input-placeholder{font-size:14px}
+@media only screen and (min-width:2400px) {
+.form-sec{padding:19% 0;margin:-344px 0 0}
+.hire-arena .arena-flow{margin:-299px 0 0}
+.stud-speak .footer-overlay{margin-top:-268px}
+}
+@media only screen and (min-width:1922px) {
+.verify-sec::after{height:240px}
+.validate-sec .right-sec img{width:77%}
+}
+@media only screen and (min-width:1800px) {
+.benefits-inner{align-items:flex-start}
+}
+@media only screen and (max-width:1800px) {
+.benefits-sec .left-sec .subhead{font-size:55px;margin-bottom:36px;line-height:73px}
+.dmc-points li{font-size:19px}
+.dmc-points li::before{top:7px}
+.flow-sel{width:81%}
+}
+@media only screen and (max-width:1600px) {
+.banner-heading{font-size:50px;line-height:66px;margin:0 0 30px}
+.subhead{font-size:66px;margin-bottom:50px}
+.benefits-sec .left-sec{padding-bottom:250px}
+.gift-arena .subhead{width:100%;font-size:30px;line-height:39px}
+.gift-arena{padding:110px 0 300px}
+.banner-form{top:114px;width:500px}
+.banner-form .input-field{margin-bottom:19px}
+#gift-a-course-form label.error{bottom:-2px;top:30px;position:absolute}
+.banner-form{width:430px;padding:30px;top:100px}
+.form-title{font-size:27px}
+.banner-form .input-field{font-size:17px}
+.gift-course .set-box-nw{padding:24% 0 40%}
+.form-cont input{font-size:20px;text-align:center;color:hsl(187,100%,14%);font-weight:600}
+.searchbox input::-webkit-input-placeholder{font-size:10px;color:#f7ca18}
+.searchbox input::-moz-placeholder{font-size:10px;color:#f7ca18}
+.searchbox input::-o-placeholder{font-size:10px;color:#f7ca18}
+.searchbox input::-ms-input-placeholder{font-size:10px;color:#f7ca18}
+input::-webkit-input-placeholder{font-size:20px;font-family:NunitoRegular;color:hsl(187,100%,14%);opacity:.6}
+input::-moz-placeholder{font-size:20px;font-family:NunitoRegular;color:hsl(187,100%,14%);opacity:.6}
+input::-o-placeholder{font-size:20px;font-family:NunitoRegular;color:hsl(187,100%,14%);opacity:.6}
+input::-ms-input-placeholder{font-size:20px;font-family:NunitoRegular;color:hsl(187,100%,14%);opacity:.6}
+.select-dropdown{font-size:20px;text-align-last:center;color:hsl(187,100%,14%)}
+.form-cont span{font-size:20px}
+.form-sec{padding:281px 0 228px}
+.testi-user-name{font-size:26px}
+.testi-user-desn{font-size:20px}
+.testi-slide .btm-sec p{font-size:17px}
+.read-more-text{font-size:16px}
+.hire-from-arena{padding:30px 0 200px}
+.form-message{margin:10px auto 0}
+.validate-inner{align-items:flex-end}
+.validate-inner .left-sec{padding-bottom:290px}
+.genuine-aptech-page .footer-overlay{margin-top:-100px}
+.career-cont-info p{font-size:17px}
+.career-btm-point a,.career-btm-sec p{font-size:30px}
+.career-btm-sec{margin:76px 0 21px}
+.testi-slide .testi-user{width:105px;height:105px;margin:0 auto 20px}
+.testi-user-img{margin:0 auto;width:105px;height:105px}
+}
+@media only screen and (max-width:1366px) {
+.subhead{font-size:52px;line-height:71px}
+.verify-sec{padding:37px 0 40px}
+.verify-sec .subhead{line-height:71px}
+.benefits-sec .left-sec .subhead{font-size:40px;line-height:50px}
+.benefits-sec .dmc-points li{font-size:17px}
+.dmc-points li::before{top:4px;transform:scale(.8)}
+.benefits-sec .left-sec .subhead{margin-bottom:20px}
+.terms-condt{font-size:17px}
+.validate-sec{padding:53px 0 0}
+.validate-sec .subhead{font-size:33px;line-height:46px}
+.benefits-sec{padding:203px 0 0}
+.flow-sec+.flow-sec:after{left:-17%}
+.course-name{font-size:34px;line-height:46px}
+.flow-sec figcaption{font-size:17px}
+.banner-form{width:356px}
+.banner-form .input-field{padding-bottom:5px}
+.arena-flow{padding:50px 0 164px}
+.benefits-inner{align-items:flex-end}
+.form-sec .subhead{line-height:70px;font-size:44px;margin-bottom:41px}
+.stud-speak-info p{width:100%;font-size:26px}
+.testi-user-name{font-size:23px}
+.testi-user-desn{font-size:18px}
+.stud-testi{padding:20% 0}
+.stud-speak-info{padding:15% 0 18%}
+input::-webkit-input-placeholder{font-size:20px}
+input::-moz-placeholder{font-size:20px}
+input::-o-placeholder{font-size:20px}
+input::-ms-input-placeholder{font-size:20px}
+.form-message p{font-size:13px;line-height:18px}
+.privacy-pop.campus-popup .campus-number .inner-cont{font-size:16px;line-height:32px}
+.privacy-pop.campus-popup .campus-number .inner-cont p{font-size:16px;line-height:32px}
+.para-cont{font-size:17px;line-height:33px}
+.verify-sec .subhead{line-height:56px;font-size:46px}
+.verify-box figcaption,.verify-box figcaption a{font-size:17px}
+.btm-head{font-size:17px}
+.testi-slide .testi-user{width:90px;height:90px;margin:0 auto 20px}
+.flow-sel{font-size:25px;line-height:32px}
+.banner-desc{font-size:17px}
+#gift-a-course-form input::-webkit-input-placeholder{font-size:15px}
+#gift-a-course-form input::-moz-placeholder{font-size:15px}
+#gift-a-course-form input::-o-placeholder{font-size:15px}
+#gift-a-course-form input::-ms-input-placeholder{font-size:15px}
+.stud-speak .form-sec{padding:281px 0 357px}
+.hire-arena .form-sec .subhead{line-height:57px}
+.hire-arena .arena-flow .subhead{font-size:44px;margin-bottom:55px}
+.hire-from-arena p{font-size:17px}
+.stud-cont-inner .right-sec p{font-size:17px}
+.left-inner .stud-pop-head{font-size:26px}
+.hire-arena .banner-heading{text-align:left;font-size:50px;line-height:66px;margin:-20px 0 10px}
+.hire-arena .form-row-sec{margin-bottom:20px}
+.stud-speak .banner-heading{margin-bottom:10px}
+.digi-about .add-cont .add-heading{line-height:42px;font-size:30px}
+}
+@media only screen and (max-width:1200px) {
+.banner-form{position:static;top:auto;width:100%}
+.gift-course .set-box-nw{padding:20% 0 1%}
+.input-field-sec{width:30%}
+.banner-form form{display:flex;justify-content:space-between;flex-wrap:wrap}
+.gift-course .top-banner{padding:0 0 215px}
+.banner-form{background:rgba(255,255,255,.9)}
+.banner-form .input-field{background:rgba(255,255,255,.1)}
+.upload-btn-sec .input-field-sec{width:auto}
+.testi-slide .testi-user{margin:0 auto 20px}
+.input-field-sec.city-loc-field{margin-top:10px}
+#gift-a-course-form .form-message{display:block}
+#gift-a-course-form .cta-sec{width:100%}
+.subhead{font-size:42px;line-height:54px}
+.course-name{font-size:20px;line-height:28px;margin:0 0 10px}
+.benefits-sec .left-sec .subhead{font-size:32px;line-height:42px;margin-bottom:20px}
+.validate-sec .subhead{font-size:30px;line-height:42px}
+.career-page .top-banner{background-position:center 90px!important}
+.hire-arena .banner-heading{margin-bottom:10px}
+.hire-arena .arena-flow .subhead{font-size:36px;margin-bottom:30px;line-height:42px}
+.joblistcont span{margin-top:10px;margin-bottom:10px;display:inline-block}
+.joblistcont span a{width:auto;min-width:50px;margin:0 10px;font-size:20px;line-height:28px}
+.stud-speak .banner-heading{margin-bottom:10px;padding-top:0}
+.stud-testi{margin:-273px 0 0}
+.stud-speak-info{padding:20% 0 25%}
+.stud-speak .top-banner{background-position-y:top!important;background-position-x:-115px!important}
+.stud-speak .set-box-nw{padding:23% 0 32%}
+}
+@media only screen and (max-width:1100px) {
+.form-sec .subhead{font-size:38px;line-height:53px;margin-bottom:26px}
+.flow-sec{padding:5% 12px 7%}
+.stud-testi{padding:20% 0 29%}
+.stud-speak .and-email-id{display:block}
+.hire-arena .top-banner{background-position:top right!important;background-size:auto!important}
+.hire-arena .top-banner .set-box-nw{padding:27% 0!important}
+.hire-arena .course-landing-info-box{width:100%!important;margin-left:0}
+.stud-testi{background:url(../images/student-speak/mob-testi-slider-bg.png) no-repeat top center}
+}
+@media only screen and (max-width:1024px) {
+.slider-nav-thumbnails{display:none}
+}
+@media only screen and (max-width:991px) {
+.banner-heading{font-size:39px;line-height:48px}
+.hire-arena .banner-heading{font-size:39px;line-height:48px}
+.contact-info .input-field-sec{width:300px}
+.para-cont{font-size:19px;line-height:30px}
+.validate-sec::before{height:141px;top:-133px}
+.benefits-inner{display:block}
+.benefits-sec .left-sec{width:100%;padding-bottom:47px}
+.benefits-sec .right-sec{width:67%;margin:0 auto}
+.gift-arena .left-sec{width:100%}
+.gift-arena{padding:172px 0 183px;background-position:top left}
+.flow-sec+.flow-sec::after{top:42%;left:-20%;transform:scale(.8)}
+.btm-cont{width:100%}
+.banner-form{padding:20px}
+.banner-form .anchor_text{width:150px}
+.banner-form .cta-sec{width:100%;text-align:center}
+label.error{font-size:12px;width:232px}
+.form-cont span{font-size:21px}
+.hire-arena .form-sec .subhead{width:100%}
+.form-sec select{margin-top:16px}
+.stud-speak .set-box-nw{padding:27% 0 40%}
+.stud-speak-info{padding:20% 0 25%}
+.upload-btn-sec{display:block}
+.cv-details{display:block!important;margin-bottom:20px}
+.contact-info .input-field-sec:last-child{margin-top:20px}
+.upload-field-sec .input-field-sec{margin-bottom:20px}
+.gift-arena .cta-sec{text-align:center}
+.validate-inner{display:block}
+.validate-sec .left-sec{width:100%}
+.validate-sec .subhead{font-size:30px;line-height:42px;margin-bottom:20px}
+.validate-sec .right-sec{margin:30px auto 0;width:54%}
+.validate-inner .left-sec{padding-bottom:26px}
+.career-cont-info{padding:12px 0 143px}
+.flow-sel{font-size:20px;line-height:30px}
+#uploadBtn-error{bottom:-36px!important}
+.flow-sel{width:96%}
+.browse-btn span{padding:7px 24px}
+.slider-nav-thumbnails .slick-next,.slider-nav-thumbnails .slick-next:focus,.slider-nav-thumbnails .slick-next:hover,.stud-slider .slick-next,.stud-slider .slick-next:focus,.stud-slider .slick-next:hover{right:-37px}
+.slider-nav-thumbnails .slick-prev,.slider-nav-thumbnails .slick-prev:focus,.slider-nav-thumbnails .slick-prev:hover,.stud-slider .slick-prev,.stud-slider .slick-prev:focus,.stud-slider .slick-prev:hover{left:-37px}
+.stud-cont-sec{background:#e6e6e6}
+}
+.form-sec select{font-weight:700}
+.form-sec .subhead{font-family:'Raleway'}
+.submit-btn-info{text-align:center;font-style:italic;margin:53px 0 0;font-size:13px}
+.submit-btn-info a{color:#333;text-decoration:underline}
+.submit-btn-info a:hover,.submit-btn-info a:focus{text-decoration:none}
+@media only screen and (max-width:768px) {
+.form-cont span{font-size:16px}
+.form-sec select{margin-top:16px;font-weight:700}
+.form-sec .subhead{font-size:36px;line-height:53px;margin-bottom:26px;font-family:'Raleway'}
+.stud-speak .and-email-id{display:inline-block}	
+}
+@media only screen and (max-width:767px) {
+.stud-cont-inner .right-sec .testimonial-content{height:191px;overflow-y:scroll}
+.stud-speak .top-banner{background-position-x:center!important}
+.para-cont{font-size:17px;line-height:21px}
+.genuine-aptech-page .set-box-nw{padding:35% 0 28%!important;width:100%}
+.genuine-aptech-page .top-banner{background-position:top right!important}
+.subhead{font-size:38px;line-height:45px;margin-bottom:24px}
+.arena-flow .subhead{font-size:34px;line-height:44px;margin-bottom:30px}
+.arena-courses-sec .subhead{font-size:34px;line-height:44px;margin-bottom:46px}
+.verify-box figcaption{font-size:17px}
+.verify-sec .subhead{line-height:45px;font-size:31px}
+.btm-head{font-size:17px}
+.dmc-points li::before{top:7px}
+.benefits-sec{padding:163px 0 0}
+.gift-arena{padding:172px 0 176px}
+.gift-arena .left-sec{text-align:center}
+.flow-sec figcaption{font-size:16px}
+.btm-cont{font-size:17px}
+.input-field-sec{width:48%}
+.gift-course .set-box-nw{width:100%!important;text-align:center}
+.arena-flow{padding:0 0 104px}
+.browse-btn span{border:1px solid #fff}
+.form-sec .subhead{font-size:30px;line-height:42px}
+.hire-arena .form-sec .subhead{line-height:41px}
+.stud-speak .set-box-nw{padding:32% 0 39%!important}
+.testi-slide .testi-user{margin:0 auto 20px}
+.stud-slider{width:90%;margin:0 auto 40px}
+.stud-testi{padding:14% 0 38%}
+.stud-speak-info p{font-size:17px}
+.browse-btn{margin-top:0!important}
+.hire-from-arena{padding:1px 0 121px}
+.hire-arena .arena-flow{padding:153px 0 187px}
+.genuine-aptech-page .course-landing-info-box{margin-left:0}
+.verify-sec .subhead{line-height:32px;font-size:22px}
+.benefits-sec .left-sec .subhead{font-size:28px;line-height:34px;margin-bottom:20px}
+.validate-sec .cta-sec{text-align:center}
+.validate-sec .subhead,.validate-sec p{text-align:left}
+.validate-sec .subhead{font-size:23px;line-height:34px;margin-bottom:20px;text-align:left}
+.hall-fame{margin-left:18px}
+.career-btm-sec{margin:49px 0 0}
+.career-btm-point a,.career-btm-sec p{font-size:23px}
+.career-cont-info{padding:12px 0 68px}
+.stud-testi .slick-slide.slick-current .testi-slide{margin:90px 0 20px}
+.career-page .set-box-nw{margin-left:35%;padding:40% 0 30%!important;width:61%}
+.stud-speak .form-sec{padding:281px 0 275px}
+.stud-speak .footer-overlay{margin-top:-202px!important}
+.hire-arena .arena-flow .subhead{font-size:30px;margin-bottom:30px;line-height:36px}
+.slider-nav-thumbnails .slick-next,.slider-nav-thumbnails .slick-next:focus,.slider-nav-thumbnails .slick-next:hover,.stud-slider .slick-next,.stud-slider .slick-next:focus,.stud-slider .slick-next:hover{right:-50px}
+.slider-nav-thumbnails .slick-prev,.slider-nav-thumbnails .slick-prev:focus,.slider-nav-thumbnails .slick-prev:hover,.stud-slider .slick-prev,.stud-slider .slick-prev:focus,.stud-slider .slick-prev:hover{left:-50px}
+.stud-cont-inner{display:block}
+.stud-cont-inner .left-sec{width:100%;margin-bottom:30px}
+.stud-cont-inner .right-sec{width:100%;border-left:0;padding-left:10px}
+.stud-cont-inner .right-sec p{padding-left:0}
+.dmc-sec .subhead{font-size:26px;line-height:32px}
+.joblistcont span a{width:auto!important;min-width:50px!important;margin:10px!important;line-height:28px;font-size:14px}
+.stud-speak .top-banner .banner-desc{margin-bottom:16%}
+.empty-form{background-position:top left}
+.gift-arena .left-sec p,.gift-arena .subhead{text-align:left}
+}
+@media only screen and (max-width:640px) {
+.verify-container{flex-wrap:wrap;justify-content:center}
+.verify-container .verify-box{width:50%;padding:0 3%}
+.gift-arena .subhead{font-size:25px;line-height:37px}
+.courses-list{display:block}
+.courses-list .course-box{width:100%;margin-bottom:30px}
+.flow-chart{display:block}
+.flow-sec{width:80%;margin:0 auto 60px}
+.flow-sec+.flow-sec::after{top:-48px;left:0;right:0;margin:0 auto;transform:rotate(90deg)}
+.flow-sec figcaption{font-size:17px;margin:15px 0 0}
+.input-field-sec{width:100%}
+.form-cont span{display:block}
+.upload-btn-sec{display:block}
+.browse-btn{margin:22px auto 0}
+.form-cont input{display:block;width:100%}
+.select-dropdown{display:block;width:100%}
+.stud-speak .set-box-nw{padding:32% 0 45%!important}
+.stud-slider .slick-next,.stud-slider .slick-prev{transform:scale(.7);top:46%}
+.slider-nav-thumbnails .slick-next,.slider-nav-thumbnails .slick-prev{transform:scale(.7);top:23%}
+.stud-slider .slick-prev,.stud-slider .slick-prev:focus,.stud-slider .slick-prev:hover{left:-37px}
+.stud-slider .slick-next,.stud-slider .slick-next:focus,.stud-slider .slick-next:hover{right:-37px}
+.testi-user-desn{width:100%}
+.stud-testi{padding:23% 0 38%}
+.upload-field-sec span{display:inline-block!important}
+.select-dropdown{width:100%!important}
+.stud-speak .form-cont .common_form span label,.stud-speak .form-cont .forminput label{position:relative!important;top:auto!important;bottom:auto!important}
+.slider-nav-thumbnails .slick-next,.slider-nav-thumbnails .slick-next:focus,.slider-nav-thumbnails .slick-next:hover,.stud-slider .slick-next,.stud-slider .slick-next:focus,.stud-slider .slick-next:hover{right:-50px}
+.slider-nav-thumbnails .slick-prev,.slider-nav-thumbnails .slick-prev:focus,.slider-nav-thumbnails .slick-prev:hover,.stud-slider .slick-prev,.stud-slider .slick-prev:focus,.stud-slider .slick-prev:hover{left:-50px}
+.hire-arena .top-banner .set-box-nw{padding:31% 0 27%!important}
+.contact-info .input-field-sec:last-child{margin-top:0}
+.input-field-sec.city-loc-field{margin-top:0}
+.hire-arena .form-row-sec{margin-bottom:10px}
+}
+@media only screen and (max-width:480px) {
+.hire-arena .banner-heading{font-size:30px;line-height:37px;margin:0 0 10px;text-align:left}
+.banner-heading{font-size:30px;line-height:37px;margin:0 0 15px;text-align:center}
+.genuine-aptech-page .set-box-nw{padding:35% 0 42%!important}
+.subhead{font-size:30px;line-height:42px}
+.verify-container .verify-box{width:100%}
+.validate-sec .right-sec{width:78%}
+.gift-arena .cta-sec{text-align:center}
+.gift-arena .cta-sec .anchor_text{float:none}
+.flow-sec{width:100%;padding:5% 10% 10%}
+.gift-course .top-banner{padding:0 0 141px}
+.stud-speak .set-box-nw{padding:39% 0 33%!important}
+.stud-speak-info{padding:30% 0 144px;margin:-153px 0 0}
+.hire-arena .arena-flow{padding:109px 0 187px}
+.career-page .set-box-nw{padding:40% 0 41%!important}
+.flow-sel{width:100%}
+.hire-arena .input-field-sec{margin-bottom:10px;display:block;width:100%}
+.career-page .banner-heading br{display:none}
+.form-row-sec{margin-bottom:17px}
+#subForm input::-webkit-input-placeholder{font-size:13px}
+#subForm input::-moz-placeholder{font-size:13px}
+#subForm input::-o-placeholder{font-size:13px}
+#subForm input::-ms-input-placeholder{font-size:13px}
+#uploadBtn-error{bottom:-24px!important}
+.joblistcont span a:hover{font-size:33px!important}
+.slider-nav-thumbnails .slick-next,.slider-nav-thumbnails .slick-next:focus,.slider-nav-thumbnails .slick-next:hover,.stud-slider .slick-next,.stud-slider .slick-next:focus,.stud-slider .slick-next:hover{right:-45px}
+.slider-nav-thumbnails .slick-prev,.slider-nav-thumbnails .slick-prev:focus,.slider-nav-thumbnails .slick-prev:hover,.stud-slider .slick-prev,.stud-slider .slick-prev:focus,.stud-slider .slick-prev:hover{left:-45px}
+.stud-speak .top-banner .banner-desc{margin-bottom:45%}
+}
+@media(max-width:321px) {
+.stud-cont-sec{transform:translate(-50%,-48%)}
+}

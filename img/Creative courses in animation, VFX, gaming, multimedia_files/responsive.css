@@ -1,0 +1,202 @@
+@media (max-width:1199px){
+    .a-course-imgsectn, .a-course-imgsectn-right {
+        min-height: 200px;
+    }
+}
+@media (max-width:1024px) {
+    .a-course-imgsubdiv-right{
+        width: 195px;
+    }
+    .a-course-imgsubdiv{
+        width: 140px;
+    }
+    .authirized-imgwidth {
+        width: 100%;
+    }
+    .a-course-img-inspectr {
+        width: 100%;
+    }
+    .a-course-socialimgdiv{
+        right: 15px;
+    }
+    .socialimg-width {
+        width: 50px;
+    }
+    .a-course-imgsectn, .a-course-imgsectn-right {
+        min-height: 165px;
+    }
+    .a-course-courseimg{
+        height: auto;
+    }
+    .a-course-socialimgdiv{
+            right: 0;
+            bottom: 3px;
+    }
+  
+}
+@media (max-width:992px) {
+    .a-course-list{
+        display: unset;
+    }
+    .a-course-left-sectn{
+        width: 100%;
+        min-height: auto;
+    }
+    .band-slider{
+        width: 100%;
+        min-height: auto;
+    }
+  
+  
+    .socialimg-width {
+        width: 50px;
+    }
+    .a-course-socialimgdiv {
+        bottom: 2px;
+        right: 0;
+    }
+    .band-slider .slick-slide{
+        height: auto;
+    }
+    .a-course-parasectn-paddtop{
+        padding-bottom: 15px;
+    }
+    .a-course-courseimg{
+        height: auto;
+    }
+ 
+}
+@media (max-width:767px){
+ 
+    .a-course-imgsubdiv, .a-course-imgsubdiv-right{
+        margin-bottom: 10px;
+    } 
+    .socialimg-width {
+        width: 30px;
+    }
+    .a-course-socialimgdiv {
+        bottom: 4px;
+        right: 2px;
+    }
+    .authirized-imgwidth {
+        width: 140px;
+    }
+    .a-course-img-inspectr {
+        width: 105px;
+        text-align: center;
+       
+    }
+    .a-course-imgsectn, .a-course-imgsectn-right {
+        min-height: auto;
+    }
+    .a-course-topheadtext-h3{
+        font-size: 20px;
+    }
+    .a-course-para-text-top {
+        padding-top: 0;
+    }
+    .a-course-para-text-top{
+        padding-bottom: 12px;
+    }
+    .a-course-imgsubdiv{
+        width: 105px;
+    }
+    .a-course-imgsubdiv-right{
+        width: 140px;
+    }
+}
+
+
+
+/* Unreal Engine Courses-related updates on Arena course page styles */
+@media screen and (max-width: 992px) {
+    .short-term-course-details p, .short-term-course-details-points p {
+        width: 100%;
+    }
+    .course-first-section .term-course-main-heading {
+        font-size: 4vw;
+    }
+
+    .sub-head-term {
+        font-size: 3.6vw;
+    }
+
+    .sub-term-course {
+        font-size: 3.4vw;
+    }
+    .course-head-term {
+    
+        font-size: 2.5vw;
+    }
+    .short-term-course-details ul li, .short-term-course-details-points ul li {
+        
+        font-size: 16px;
+    }
+    
+    
+}
+@media screen and (max-width: 767px) {
+    .announcement {
+font-size: 10px;
+}
+.second-div{
+flex-direction: column;
+}
+    .short-term-course-details, .short-term-course-details-points {
+        width: 100%;
+        height: auto;
+    }
+
+    .course-first-section .term-course-main-heading {
+        font-size: 6vw;
+        line-height: 1.3;
+    }
+
+    .sub-head-term {
+        font-size: 6.6vw;
+    }
+
+    .sub-term-course {
+        font-size: 5.4vw;
+    }
+
+    .course-first-section p {
+        width: 95%;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 18px auto;
+    }
+
+    .short-term-course-details p ,  .short-term-course-details-points p{
+        margin-top: 0%;
+    }
+
+    .short-term-course-details p,  .short-term-course-details-points p {
+        line-height: 24px;
+        margin-top: 0%;
+        font-size: 3.7vw;
+    }
+
+    .course-head-term {
+        font-size: 4.8vw;
+    }
+
+    .short-term-course-details ul li,  .short-term-course-details-points ul li {
+        line-height: 25px;
+        font-size: 3.7vw;
+    }
+
+    .short-term-course-details ul,  .short-term-course-details-points ul {
+        display: block;
+        margin: 0px;
+    }
+    .course_left{
+        padding-bottom:20px;
+    }
+
+    .course-short-term .center-box {
+       
+        padding-bottom: 10px;
+    }
+
+}

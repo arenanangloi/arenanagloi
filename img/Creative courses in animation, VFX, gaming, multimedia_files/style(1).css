@@ -1,0 +1,308 @@
+@font-face {
+    font-family: "Nunito Regular";
+    src: url("fonts/Nunito-Regular.ttf");
+  }
+@font-face {
+font-family: "Nunito Bold";
+src: url("fonts/Nunito-Bold.ttf");
+} 
+@font-face {
+    font-family: "Raleway Bold";
+    src: url("fonts/Raleway-Bold.ttf");
+  }
+  @font-face {
+    font-family: "Raleway Regular";
+    src: url("fonts/Raleway-Regular.ttf");
+  }
+  @font-face {
+    font-family: "Raleway SemiBold";
+    src: url("fonts/Raleway-SemiBold.ttf");
+  }
+
+.a-course-wrapr{
+    padding-bottom: 70px;
+}
+
+.a-course-left-sectn{
+    width: 50%;
+    vertical-align: top;
+    display: inline-block;
+    background-color: #eceaeb;
+    padding: 0 35px;
+    min-height: 440px;
+}
+.a-course-courseimg{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.a-course-topheadtext{
+    background-color: #262626;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+.a-course-topheadtext-h3{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: "Raleway Bold";
+}
+.a-course-para-text{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Raleway Regular";
+}
+.a-course-para-text-bold{
+    font-weight: 900;
+}
+.a-course-right-know{
+    color: #0469d1;
+    text-decoration: none;
+}
+.band-slider{
+    width: 50%;
+    vertical-align: top;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 35px;
+    min-height: 440px;
+}
+.band-slider .slick-next {
+    right: 0px!important;
+}
+.band-slider .slick-prev {
+    left: 0px !important;
+}
+.a-course-right-sectn{
+    
+    /* width: 50%;
+    vertical-align: top;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 35px;
+    min-height: 490px; */
+}
+.a-course-imgsubdiv{
+    display: inline-block;
+    width: 170px;
+    margin: 0 10px;
+    vertical-align: top;
+
+}
+.a-course-imgsubdiv-right{
+    display: inline-block;
+    width: 250px;
+    margin: 0 10px;
+    vertical-align: top;
+}
+.a-course-imgsectn-right{
+    text-align: center;
+}
+.a-course-img-inspectr{
+    border: 3px solid #000;
+    width: 170px;
+}
+.a-course-text-inspectr{
+    font-size: 16px;
+    font-family: "Raleway Bold";
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 5px;
+}
+.a-course-para-text-top{
+    padding-top: 2px;
+}
+.a-course-socialimgdiv{
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+}
+.a-course-posrel{
+    position: relative;
+}
+.socialimg-width{
+    width: 55px;
+}
+.authirized-imgwidth{
+    width: 250px;
+}
+.a-course-imgsectn, .a-course-imgsectn-right{
+        min-height: 220px;
+}
+
+
+
+.a-course-list{
+    display: flex;
+    /* align-items: center; */
+}
+.a-course-parasectn-paddtop{
+    padding-top: 13px;
+}
+
+.bgsec{
+    background-color: #fff !important; 
+}
+.a-course-socialimgdiv img:hover{
+    filter: invert(10%);
+}
+
+
+/* Unreal Engine Courses-related updates on Arena course page styles */
+
+.short-term-courses-main {
+    background: #952d50;
+    color: #fff;
+}
+
+/* @font-face {
+    font-family: 'Raleway Bold';
+    src: url('fonts/Raleway-Bold.ttf');
+} */
+
+@font-face {
+    font-family: 'Raleway Regular';
+    src: url('fonts/Raleway-Regular.ttf');
+}
+
+.short-term-course-details {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #e6e6e6;
+}
+.second-div{
+display: flex;
+flex-direction: row;
+width:100%;
+max-width:100%;
+}
+
+.short-term-course-details-points {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #e6e6e6;
+}
+
+.short-term-courses {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.short-term-courses:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.course-first-section .term-course-main-heading {
+    font-family: 'Raleway Bold';
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: 3.3vw;
+    color: #e6e6e6;
+}
+
+.course-first-section p {
+    text-align: center;
+    font-family: 'Raleway Regular';
+    width: 85%;
+    margin: 30px auto;
+    font-size: 18px;
+    line-height: 30px;
+    color: #e6e6e6;
+    opacity: 0.9;
+    margin-top:0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.short-term-course-details p ,.short-term-course-details-points p{
+    font-family: 'Raleway Regular';
+    color: #e6e6e6;
+    line-height: 30px;
+    opacity: 0.9;
+    margin-top: 5%;
+    text-align: left;
+}
+
+.sub-head-term {
+    font-family: 'Raleway Bold';
+    font-size: 2.6vw;
+    color: #e6e6e6;
+    padding: 20px;
+}
+
+.sub-term-course {
+    font-family: 'Raleway Bold';
+    text-transform: uppercase;
+    font-size: 2.4vw;
+    color: #e6e6e6;
+    margin-bottom: 5px;
+}
+
+.course-head-term {
+    font-family: 'Raleway Bold';
+    text-transform: uppercase;
+    font-size: 1.5vw;
+}
+
+.short-term-course-details ul li , .short-term-course-details-points ul li{
+    font-family: 'Raleway Regular';
+    color: #e6e6e6;
+    line-height: 28px;
+    opacity: 0.9;
+    list-style: none;
+    margin-left: 0px;
+}
+.short-term-course-details ul ,.short-term-course-details-points ul {
+    /* margin:0 auto;
+    width: 85%; */
+  padding-bottom: 20px;;
+}
+.term-arrow {
+    margin-right: 10px;
+    width: 1.3%;
+}
+
+.course-short-term {
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.announcement {
+    color: #e6e6e6;
+    opacity: 0.7;
+    font-size: 14px;
+    padding: 12px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Raleway Regular';
+    font-style: oblique;
+    text-align: left;
+}
+.course-short-term .center-box{
+    margin:0 auto;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.unreal-short.students-work-box svg:nth-child(1) {
+    fill: #952d50 !important;
+    top: -1%;
+}
+.course_left{
+    width:85%;
+    margin:0 auto;
+}
