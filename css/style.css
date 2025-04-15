@@ -87,6 +87,7 @@
 }
 body{
     overflow-x: hidden;
+    background-color: #000;
 }
 nav{
     height: 7rem;
