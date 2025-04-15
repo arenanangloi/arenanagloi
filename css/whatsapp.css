@@ -1,0 +1,36 @@
+.wp-button{
+	margin-top:14px;
+}
+.floatw{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:#25d366;
+	color:#FFF;
+	text-align:center;
+  font-size:35px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+  border-radius: 15px;
+}
+.floatph{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#334fff;
+	color:#FFFFFF;
+	text-align:center;
+  font-size:35px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+
+}
+
+
+.my-floatp{
+	margin-top:14px;
+}
