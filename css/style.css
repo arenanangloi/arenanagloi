@@ -80,7 +80,7 @@
 *{
     margin: 0;
     padding: 0;
-    color: #f2f5f7;
+    color: #000;
     font-family: sans-serif;
     letter-spacing: 1px;
     font-weight: 300;
@@ -156,8 +156,8 @@ nav{
 }
 .login-button:hover {
     color: #131418;
-    background-color: #f2f5f7;
-    border:1.5px solid #f2f5f7;
+    background-color: #000;
+    border:1.5px solid #ee3b3e;
     transition: all ease-in-out 350ms;
 }
 .join-button{
@@ -180,7 +180,7 @@ nav{
 .hamburger div{
     width: 30px;
     height:3px;
-    background: #f2f5f7;
+    background: #000;
     margin: 5px;
     transition: all 0.3s ease;
 }
